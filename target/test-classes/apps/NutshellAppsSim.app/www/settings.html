@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Nutshell Forms</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, user-scalable=0, viewport-fit=cover">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' data:* gap://*; style-src 'self' 'unsafe-inline'; img-src 'self' data: ;media-src *; connect-src http://*.nutshellapps.co.uk https://*.nutshellapps.co.uk http://*.nutshellapps.com https://*.nutshellapps.com">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/docs.css" rel="stylesheet">
+		<link href="lib/toastr-2.1.4/toastr.css" rel="stylesheet">
+		<link href="lib/toastr-2.1.4/custom.css" rel="stylesheet">
+		<link href="css/roboto.css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+
+		<script src="lib/jquery.js"></script>
+		<script src="lib/toastr-2.1.4/toastr.js"></script>
+		<script src="js/toastrAlerts.js"></script>
+		<script src="lib/jquery.json-2.4.js"></script>
+		<script src="cordova.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/tickets.js"></script>
+		<script src="lib/moment.js"></script>
+		<script src="js/settings.js"></script>
+
+		<script type="text/javascript" charset="utf-8">
+            document.addEventListener("deviceready", onDeviceReady, false);
+            document.addEventListener("offline", changeScriptTagOffline, false);
+            document.addEventListener("online", changeScriptTagOnline, false);
+		</script>
+	</head>
+	<body class="settingsContainer">
+		<div class="side-menu">
+			<ul class="nav navbar-nav side-menu-nav-bar" id="settingsNavBar">
+				<li id="refreshLink" onclick="location.href = 'home.html'">
+					<img class="small refresh_page" src="img/refresh2.png" />
+					<span class="li_title">Back to Forms</span>
+				</li>
+				<li onclick="logout()">
+					<img class="small" src="img/logout3.png"/>
+					<span class="li_title">Logout</span>
+				</li>
+			</ul>
+			<p class="branding">NUTSHELLAPPS.COM</p>
+		</div>
+		<nav class="navbar navbar-default navbar-fixed-top" id="settingsTopNav">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<table>
+						<tbody>
+							<tr>
+								<td class="header-icon" onclick="newTicket();">
+									<img id="newTickImg" class="small side-menu-button" src="img/newTicket.png">
+								</td>
+								<td>
+									<p id="title_header">Support</p>
+								</td>
+								<td class="header-icon"><img class="small side-menu-button" src="img/side-menu2.png" onclick="NavBar.toggle(false)"/></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</nav>
+		<div id="mask" onclick="NavBar.toggle(false)"></div>
+		<div class="container">
+			<div class="marketing">
+				<div class="row-fluid">
+					<div class="span8">
+						<div class="raiseTicket">
+							<p class="small_para">Create a Ticket</p>
+							<p class="title_para">Use the form below to raise a support ticket for any of your Nutshell apps:</p>
+							<form class="form-inline">
+								<select id="applicationId" class="input-block-level create_ticket_field">
+									<option value="">Please select a form</option>
+								</select>
+								<input type="text" id="ticketTitle" class="input-block-level create_ticket_field" placeholder="Ticket title" />
+								<textarea id="ticketComments" class="input-block-level create_ticket_field" placeholder="Description of the issue you're experiencing..."></textarea>
+								<button type="button" id="raiseTicket" class="btn" onclick="raiseNewTicket();">Raise Ticket</button>
+							</form>
+						</div>
+						<p id="information"></p>
+						<div id="firstPageTickets">
+							<ul class="nav navbar-nav side-menu-nav-bar">
+								<li id="show_open_tickets">
+									<a>
+										<img class="small" src="img/open_tickets.png">
+										<span class="ticket_title_show">Open Tickets</span>
+										<span class="unread_tickets"></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="tickets"></div><!-- keep here to populate tickets -->
+					</div>
+					<div class="span2">&nbsp;</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

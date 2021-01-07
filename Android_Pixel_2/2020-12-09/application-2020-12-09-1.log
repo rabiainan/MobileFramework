@@ -1,0 +1,35 @@
+[Android_Pixel_2 INFO ] 2020-12-09 09:53:41.764 ServerManager:24 - starting appium server
+[Android_Pixel_2 INFO ] 2020-12-09 09:53:43.506 ServerManager:33 - Appium server started
+[Android_Pixel_2 INFO ] 2020-12-09 09:53:43.530 DriverManager:33 - initializing Appium driver
+[Android_Pixel_2 INFO ] 2020-12-09 09:53:43.546 PropertyManager:17 - loading config properties
+[Android_Pixel_2 INFO ] 2020-12-09 09:53:43.547 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_2 INFO ] 2020-12-09 09:53:43.548 CapabilitiesManager:34 - appUrl is/Users/meralgulap/IdeaProjects/mobile-test-automation/src/test/resources/apps/Nutshell.apk
+[Android_Pixel_2 INFO ] 2020-12-09 09:53:56.782 DriverManager:50 - Driver is initialized
+[Android_Pixel_2 INFO ] 2020-12-09 09:54:45.814 BasePage:84 - close
+[Android_Pixel_2 INFO ] 2020-12-09 10:09:43.080 ServerManager:24 - starting appium server
+[Android_Pixel_2 INFO ] 2020-12-09 10:09:44.483 ServerManager:33 - Appium server started
+[Android_Pixel_2 INFO ] 2020-12-09 10:09:44.508 DriverManager:33 - initializing Appium driver
+[Android_Pixel_2 INFO ] 2020-12-09 10:09:44.522 PropertyManager:17 - loading config properties
+[Android_Pixel_2 INFO ] 2020-12-09 10:09:44.523 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_2 INFO ] 2020-12-09 10:09:44.525 CapabilitiesManager:34 - appUrl is/Users/meralgulap/IdeaProjects/mobile-test-automation/src/test/resources/apps/Nutshell.apk
+[Android_Pixel_2 INFO ] 2020-12-09 10:10:17.221 ServerManager:24 - starting appium server
+[Android_Pixel_2 INFO ] 2020-12-09 10:10:18.608 ServerManager:33 - Appium server started
+[Android_Pixel_2 INFO ] 2020-12-09 10:10:18.631 DriverManager:33 - initializing Appium driver
+[Android_Pixel_2 INFO ] 2020-12-09 10:10:18.645 PropertyManager:17 - loading config properties
+[Android_Pixel_2 INFO ] 2020-12-09 10:10:18.646 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_2 INFO ] 2020-12-09 10:10:18.648 CapabilitiesManager:34 - appUrl is/Users/meralgulap/IdeaProjects/mobile-test-automation/src/test/resources/apps/Nutshell.apk
+[Android_Pixel_2 INFO ] 2020-12-09 10:10:26.834 DriverManager:50 - Driver is initialized
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:03.705 ServerManager:24 - starting appium server
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:05.082 ServerManager:33 - Appium server started
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:05.103 DriverManager:33 - initializing Appium driver
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:05.115 PropertyManager:17 - loading config properties
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:05.116 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:05.117 CapabilitiesManager:34 - appUrl is/Users/meralgulap/IdeaProjects/mobile-test-automation/src/test/resources/apps/Nutshell.apk
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:33.556 ServerManager:24 - starting appium server
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:34.300 ServerManager:33 - Appium server started
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:34.316 DriverManager:33 - initializing Appium driver
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:34.327 PropertyManager:17 - loading config properties
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:34.328 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:34.329 CapabilitiesManager:34 - appUrl is/Users/meralgulap/IdeaProjects/mobile-test-automation/src/test/resources/apps/Nutshell.apk
+[Android_Pixel_2 INFO ] 2020-12-09 10:12:41.376 DriverManager:50 - Driver is initialized
+[Android_Pixel_2 INFO ] 2020-12-09 10:13:21.173 BasePage:84 - close

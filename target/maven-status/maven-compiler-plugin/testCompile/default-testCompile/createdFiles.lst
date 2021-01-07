@@ -1,0 +1,12 @@
+com/qa/pages/BasePage.class
+com/qa/runners/RunnerBase.class
+com/qa/pages/ContainerSanityPage.class
+com/qa/pages/FolderPage.class
+com/qa/stepdef/LoginStepDef.class
+com/qa/runners/MyRunnerTest.class
+com/qa/pages/BasePage$1.class
+com/qa/stepdef/ContainerSanityDef.class
+com/qa/pages/AppsPage.class
+com/qa/pages/LoginPage.class
+com/qa/pages/BasePage$2.class
+com/qa/stepdef/Hooks.class

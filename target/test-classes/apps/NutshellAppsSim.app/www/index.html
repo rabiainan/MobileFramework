@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Nutshell Forms</title>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi, viewport-fit=cover" />
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <meta http-equiv="Content-Security-Policy"
+              content="default-src * 'unsafe-inline' 'unsafe-eval' data:* gap://*
+              https://europe-west1-nutshell-apps-client-instances.cloudfunctions.net/
+              https://europe-west1-nutshell-uat.cloudfunctions.net/
+              https://us-central1-nutshell-container.cloudfunctions.net/
+              https://nutshell-apps-client-instances.appspot.com/
+              https://nutshell-uat.appspot.com/;
+              style-src 'self' 'unsafe-inline';
+              img-src 'self' data: https://firebasestorage.googleapis.com/;
+              media-src *;
+              connect-src ms-appx-web: http://*.nutshellapps.co.uk https://*.nutshellapps.co.uk
+              http://*.nutshellapps.com https://*.nutshellapps.com https://*.googleapis.com;">
+
+        <link href="css/loadingSpinner.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="css/docs.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="lib/toastr-2.1.4/toastr.css" rel="stylesheet">
+        <link href="lib/toastr-2.1.4/custom.css" rel="stylesheet">
+        <link href="css/roboto.css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+
+        <script src="lib/jquery.js"></script>
+        <script src="lib/toastr-2.1.4/toastr.js"></script>
+        <script src="js/toastrAlerts.js"></script>
+        <script src="js/onlineOffline.js"></script>
+        <script src="js/customUrlHandler.js"></script>
+        <script src="lib/jquery.json-2.4.js"></script>
+        <script src="lib/json_sans_eval.js"></script>
+        <script src="cordova.js"></script>
+        <script src="js/auth/auth.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/repositories/transactionsRepo.js"></script>
+        <script src="lib/sha1.js"></script>
+        <script src="lib/7.19.1_firebase.js"></script>
+        <script src="lib/eventbus.min.js"></script>
+        <script src="js/init/firebaseService.js"></script>
+        <script src="js/utils/ns.js"></script>
+        <script src="js/utils/nsNavigator.js"></script>
+        <script src="js/db/containerDatabaseManager.js"></script>
+        <script src="js/repositories/configuration/configRepo.js"></script>
+        <script src="js/repositories/configuration/configRepoLocal.js"></script>
+        <script src="js/repositories/configuration/configRepoRemote.js"></script>
+        <script src="js/repositories/deploymentsRepo.js"></script>
+        <script src="js/repositories/dataStructuresRepo.js"></script>
+        <script src="js/repositories/dbMigrationsRepo.js"></script>
+        <script src="js/services/autoLaunchService.js"></script>
+        <script src="js/services/brandingService.js"></script>
+        <script src="js/services/deepLink/deepLinkService.js"></script>
+        <script src="js/services/deepLink/deepLinkHandlerIndex.js"></script>
+        <script src="config/config.js"></script>
+        <script src="config/configManager.js"></script>
+        <script src="js/db/databaseMigrations_nutshell_db.js"></script>
+        <script src="js/db/databaseMigrations_micro_app.js"></script>
+        <script src="js/db/databaseMigrator.js"></script>
+        <script src="js/remoteLogger.js"></script>
+        <script src="js/nutshellAnalytics.js"></script>
+        <script src="js/models/branding.js"></script>
+
+        <!-- MVP -->
+        <script src="js/mvp/nsEvents.js"></script>
+        <script src="js/mvp/loadingSpinner/loadingSpinnerView.js"></script>
+        <script src="js/mvp/loadingSpinner/loadingSpinnerPresenter.js"></script>
+        <script src="js/mvp/loadingSpinner/loadingSpinnerModel.js"></script>
+        <script src="js/mvp/screens/login/loginScreenModel.js"></script>
+        <script src="js/mvp/screens/login/loginScreenView.js"></script>
+        <script src="js/mvp/screens/login/loginScreenPresenter.js"></script>
+        <script src="js/mvp/screens/login/imageTransition.js"></script>
+
+
+        <!--<script src="js/utils/testsql.js"></script>-->
+
+        <!-- compiler scripts -->
+        <script src="js/shared/dataVariant.js"></script>
+        <script src="js/shared/dataStructure.js"></script>
+        <script src="js/shared/database.js"></script>
+        <script src="js/shared/remoteDb.js"></script>
+        <script src="js/sync/sqlLiteDb.js"></script>
+        <script src="js/shared/databaseManager.js"></script>
+
+
+        <script type="text/javascript" charset="utf-8">
+            document.addEventListener("deviceready", onDeviceReady, false);
+            document.addEventListener("offline", changeScriptTagOffline, false);
+            document.addEventListener("online", changeScriptTagOnline, false);
+        </script>
+    </head>
+
+    <body>
+        <div id="cover">
+            <div align="center" class="fond">
+                <div class="contener_general">
+                    <div class="contener_mixte"><div class="ballcolor ball_1">&nbsp;</div></div>
+                    <div class="contener_mixte"><div class="ballcolor ball_2">&nbsp;</div></div>
+                    <div class="contener_mixte"><div class="ballcolor ball_3">&nbsp;</div></div>
+                    <div class="contener_mixte"><div class="ballcolor ball_4">&nbsp;</div></div>
+                </div>
+            </div>
+        </div>
+        <div id="loading-spinner-container">
+            <div class="loading-spinner container">
+                <div id="loading-spinner"></div>
+                <div class="text"></div>
+            </div>
+        </div>
+        <div class="container loginContainer">
+            <div class="marketing">
+                <div class="container-fluid">
+
+                    <div class="row-fluid">
+                        <div class="offset1 span10 loginBlock">
+                            <div id="mainLogoContainerWrapper">
+                                <div class="mainLogoContainer">
+                                    <img id="mainLogo" src="img/login_screen_logo.png" />
+                                </div>
+                            </div>
+                            <div>
+                                <label for="form_domain" class="home_label">Account</label>
+                                <input id="form_domain" autocorrect="off" name="domain" tabindex="1" type="text" placeholder="Account" class="form-control" keyup="javascript:this.value=this.value.toLowerCase();" />
+                            </div>
+                            <div>
+                                <label for="form_username" class="home_label">Username</label>
+                                <input id="form_username" autocorrect="off" name="username" tabindex="2" type="email" placeholder="Username" class="form-control" />
+                            </div>
+                            <div>
+                                <label for="form_password" class="home_label">Password</label>
+                                <input id="form_password" autocorrect="off" name="password" tabindex="3" type="password" placeholder="Password" class="form-control" />
+                            </div>
+                            <div class="checkbox remember_me">
+                                <label class="remember_label">
+                                    <input type="checkbox" id="form_remember" name="remember" tabindex="4" value="yes" /> Remember me
+                                </label>
+                            </div>
+                            <div>
+                                <button id="pswd_reset" type="submit" class="btn btn-info" tabindex="4" onclick="NsNavigator.navigateToScreen('reset.html')">Reset Password</button>
+                                <button id="sign_in" type="submit" class="btn btn-info" tabindex="4" onclick="Auth.invokeLogin()">Sign In</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

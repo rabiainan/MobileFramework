@@ -1,0 +1,6 @@
+[Android_Pixel_2 INFO ] 2020-12-07 14:27:48.559 ServerManager:24 - starting appium server
+[Android_Pixel_2 INFO ] 2020-12-07 14:27:50.614 ServerManager:33 - Appium server started
+[Android_Pixel_2 INFO ] 2020-12-07 14:27:50.641 DriverManager:33 - initializing Appium driver
+[Android_Pixel_2 INFO ] 2020-12-07 14:27:50.659 PropertyManager:17 - loading config properties
+[Android_Pixel_2 INFO ] 2020-12-07 14:27:50.660 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_2 INFO ] 2020-12-07 14:27:50.662 CapabilitiesManager:34 - appUrl is/Users/meralgulap/IdeaProjects/MobileAutomation_6/src/test/resources/apps/Nutshell.apk

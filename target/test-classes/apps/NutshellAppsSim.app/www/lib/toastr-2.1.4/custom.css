@@ -1,0 +1,6 @@
+/*
+ * Custom css for toastr.css Must be added to after to make sure rules are .
+ */
+#toast-container > div {
+    opacity: 1;
+}

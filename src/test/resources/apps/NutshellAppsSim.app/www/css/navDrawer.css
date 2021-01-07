@@ -1,0 +1,22 @@
+.debug_console.container {
+    display: none;
+    position: relative;
+    height: 60%;
+    width: 100%;
+    padding: 2px;
+    margin: 2px;
+    background: #1b1b1b;
+    float: left;
+    z-index: 1;
+    overflow: scroll;
+}
+
+.debug_console.content {
+    color: whitesmoke;
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-size: 40%;
+    padding: 2px;
+}

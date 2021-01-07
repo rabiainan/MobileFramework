@@ -1,0 +1,30 @@
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:18:13.607 ServerManager:24 - starting appium server
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:18:15.698 ServerManager:33 - Appium server started
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:18:15.725 DriverManager:33 - initializing Appium driver
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:18:15.742 PropertyManager:17 - loading config properties
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:18:15.743 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:18:15.745 CapabilitiesManager:34 - appUrl is/Users/meralgulap/IdeaProjects/mobile-test-automation/src/test/resources/apps/Nutshell.apk
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:18:25.456 DriverManager:50 - Driver is initialized
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:19:17.241 BasePage:84 - close
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:21:41.153 ServerManager:24 - starting appium server
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:21:42.562 ServerManager:33 - Appium server started
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:21:42.588 DriverManager:33 - initializing Appium driver
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:21:42.604 PropertyManager:17 - loading config properties
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:21:42.605 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:21:42.608 CapabilitiesManager:34 - appUrl is/Users/meralgulap/IdeaProjects/mobile-test-automation/src/test/resources/apps/Nutshell.apk
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:22:12.641 ServerManager:24 - starting appium server
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:22:13.699 ServerManager:33 - Appium server started
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:22:13.721 DriverManager:33 - initializing Appium driver
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:22:13.736 PropertyManager:17 - loading config properties
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:22:13.737 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:22:13.739 CapabilitiesManager:34 - appUrl is/Users/meralgulap/IdeaProjects/mobile-test-automation/src/test/resources/apps/Nutshell.apk
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:22:19.854 DriverManager:50 - Driver is initialized
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:23:18.194 BasePage:84 - close
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:23:39.448 ServerManager:24 - starting appium server
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:23:40.851 ServerManager:33 - Appium server started
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:23:40.875 DriverManager:33 - initializing Appium driver
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:23:40.891 PropertyManager:17 - loading config properties
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:23:40.892 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:23:40.894 CapabilitiesManager:34 - appUrl is/Users/meralgulap/IdeaProjects/mobile-test-automation/src/test/resources/apps/Nutshell.apk
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:23:48.363 DriverManager:50 - Driver is initialized
+[Android_Pixel 3a XL API 30 INFO ] 2021-01-04 15:24:29.876 BasePage:84 - close

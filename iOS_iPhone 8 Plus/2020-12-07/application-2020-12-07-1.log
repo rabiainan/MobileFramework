@@ -1,0 +1,23 @@
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:09:45.614 ServerManager:24 - starting appium server
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:09:47.029 ServerManager:33 - Appium server started
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:09:47.052 DriverManager:33 - initializing Appium driver
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:09:47.070 PropertyManager:17 - loading config properties
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:09:47.071 CapabilitiesManager:18 - getting capabilities
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:09:47.073 CapabilitiesManager:45 - appUrl is/Users/meralgulap/IdeaProjects/MobileAutomation_6/src/test/resources/apps/NutshellAppsSim.app
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:10:13.398 DriverManager:50 - Driver is initialized
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:10:38.709 BasePage:83 - close
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:17:18.806 ServerManager:24 - starting appium server
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:17:20.226 ServerManager:33 - Appium server started
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:17:20.244 DriverManager:33 - initializing Appium driver
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:17:20.260 PropertyManager:17 - loading config properties
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:17:20.261 CapabilitiesManager:18 - getting capabilities
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:17:20.263 CapabilitiesManager:45 - appUrl is/Users/meralgulap/IdeaProjects/MobileAutomation_6/src/test/resources/apps/NutshellAppsSim.app
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:17:49.549 DriverManager:50 - Driver is initialized
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:22:54.700 ServerManager:24 - starting appium server
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:22:56.452 ServerManager:33 - Appium server started
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:22:56.477 DriverManager:33 - initializing Appium driver
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:22:56.493 PropertyManager:17 - loading config properties
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:22:56.494 CapabilitiesManager:18 - getting capabilities
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:22:56.496 CapabilitiesManager:45 - appUrl is/Users/meralgulap/IdeaProjects/MobileAutomation_6/src/test/resources/apps/NutshellAppsSim.app
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:23:04.364 DriverManager:50 - Driver is initialized
+[iOS_iPhone 8 Plus INFO ] 2020-12-07 19:23:29.810 BasePage:83 - close
