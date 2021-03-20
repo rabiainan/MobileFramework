@@ -8,6 +8,7 @@ Feature: App Publishing scenarios
     Given I click the Apps button
     Then Qa Review folder is displayed
 
+    
   Scenario: Open the Apps QA REVIEW folder
     When I am on the app directory page
     Given I click the QA REVIEW folder
